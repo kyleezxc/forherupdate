@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;  
+    font-size: 15px;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    background-image: url('https://steamuserimages-a.akamaihd.net/ugc/847092187909232389/B30FDC786E112747191946B2E3C783731F810FA0/?imw=637&imh=358&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container{
+    margin-top: 10%;
+    border-style: groove;
+    border-radius: 7px;
+    width: 400px;
+    height: 400px;
+    backdrop-filter: blur(4px);
+}
+
+.login{
+    margin-top: 5px;
+    margin-left: 100px;
+}
+
+h4{
+    margin-top: 15%;
+}
+
+input{
+    border-radius: 7px;
+    text-align: center;
+}
+
+button{
+    margin-top: 30px;
+    margin-left: 10%;
+    width: 150px;
+    height: 26px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: orange;
+}
+.re-login{
+    padding-left: 26%;
+}
+
+.header {
+    text-align: center;
+    padding-top: 5%;
+}
